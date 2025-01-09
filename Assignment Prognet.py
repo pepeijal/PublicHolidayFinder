@@ -9,8 +9,8 @@ API_KEY = "XZTnRZVAs2fC8Q9ODTkEhwXVA3puh4w8"  # Replace with your Calendarific A
 BASE_URL = "https://calendarific.com/api/v2/holidays"
 
 # Webex Configuration
-WEBEX_ACCESS_TOKEN = "MjQzOGVhMDctODk0Zi00YWZkLWE2N2ItMTBiZWU4YjE2OWIxNzkwYWJjYWItZDc3_P0A1_e77bdb70-5835-4193-b328-1a7e84839fa8"  # Replace with your Webex access token
-WEBEX_ROOM_ID = "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vN2JhZjkxYTAtMjIyNi0xMWVmLWIwMmQtNmZhYWY3NDQ4NzE5"  # Replace with your Webex room ID
+WEBEX_ACCESS_TOKEN = "<Your Webex Access Token>"  # Replace with your Webex access token
+WEBEX_ROOM_ID = "<Your RoomID>"  # Replace with your Webex room ID
 
 # List of countries and their ISO codes
 COUNTRIES = {
