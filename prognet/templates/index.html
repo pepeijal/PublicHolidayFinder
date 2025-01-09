@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Holiday Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Public Holiday Finder</h1>
+        <form action="{{ url_for('results') }}" method="POST">
+            <label for="country">Select Country:</label>
+            <select name="country" id="country">
+                {% for name, code in countries.items() %}
+                    <option value="{{ code }}">{{ name }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="year">Select Year:</label>
+            <input type="number" name="year" value="{{ current_year }}" required>
+
+            <button type="submit">Find Holidays</button>
+        </form>
+    </div>
+</body>
+</html>
