@@ -66,6 +66,7 @@ README.md                  # Documentation
 ## Limitation
 - **Only limited to 500 API requests**
 - **Need to make sure your Webex Access token and RoomID is Correct and Valid**
+- **Limited Country Support** : The project only includes a predefined set of countries (Malaysia, USA, UK, etc.), so users cannot search for holidays in countries not listed.
   
 ## License
 This project is released under the MIT License. (i guess)
