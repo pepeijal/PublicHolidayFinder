@@ -63,7 +63,7 @@ README.md                  # Documentation
 - **API connection error:** Check your internet connection and verify that the API key is valid.
 - **Webex message not sent:** Ensure your Webex access token and room ID are correct and valid.
 
-##Limitation
+## Limitation
 - **Only limited to 500 API requests**
 - **Need to make sure your Webex Access token and RoomID is Correct and Valid**
   
